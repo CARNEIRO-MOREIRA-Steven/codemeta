@@ -9,6 +9,7 @@
     background-color: #191924;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .banner_image{
@@ -22,8 +23,19 @@
 
 .banner{
     display: flex;
+    position: relative;
     flex-direction: column;
+    animation: slideIn 3s  ease-in-out;
 }
+
+@keyframes slideIn {
+    from {
+      right: -100%; /* Position cachée à gauche */
+    }
+    to {
+      right: 0; 
+    }
+  }
 
 .banniere_image{
     width: 500px;
@@ -52,8 +64,30 @@ h2{
 h3{
     margin: 5px 0;
     font-size: 20px;
+    display: flex;
 }
 
+.banner_presentation h2, h3{
+    animation: zoomIn 4.3s  ease-in-out ;
+    transform-origin: center ;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        
+    }
+
+    80%{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
 @media screen and (min-width : 768px) and (max-width: 1023px) {
 

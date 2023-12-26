@@ -5,7 +5,7 @@ import './banner.css';
 const Banner = () => {
   const [typedText, setTypedText] = useState('');
   const text = "CodeMeta Solutions";
-  const speed = 200; // Vitesse d'écriture en millisecondes
+  const speed = 150; // Vitesse d'écriture en millisecondes
 
   useEffect(() => {
     const typeEffect = async () => {

@@ -6,7 +6,7 @@ const Projet = () => {
     <section className='projet'>
     <section className='container_projet'>
         <h2>Vous avez un projet ? </h2>
-        <button className='contact_button'>Contactez-moi</button>
+        <button className='contact_button'><a href='/contact'>Contactez-moi</a></button>
         <img className='background_projet' alt='image contact' src='./images/banniere.webp'></img>
     </section>
     <section className='card_projet'>
@@ -14,7 +14,7 @@ const Projet = () => {
           <h3>Me contacter</h3>
           <p>Prêt à démarrer votre projet?</p>
           <p>Envoyez-moi un message pour discuter de vos besoins.</p>
-          <button className='contact_button'>Contactez-moi</button>
+          <button className='contact_button'><a href='/contact'>Contactez-moi</a></button>
         </div>
         <div className='contact'>
           <h3>Mes Services</h3>

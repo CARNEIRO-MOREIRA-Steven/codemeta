@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     overflow: hidden;
+    background-color:#F5F5F5;
 }
 
 .entreprise_presentation{
@@ -79,7 +80,7 @@
     flex-direction: column;
     align-items: center;
     height: 700px;
-    background-color: #ebebeb;
+    background-color:  #EAE2B7;
     padding-bottom: 100px;
 }
 
@@ -305,7 +306,8 @@
     }
 
     .services {
-        height: 750px;
+        height: 100%;
+
     }
 
     .services h2{
@@ -323,6 +325,7 @@
 
     .service{
         margin-top: 25px;
+        height: 100%;
     }
 
     .service.active{

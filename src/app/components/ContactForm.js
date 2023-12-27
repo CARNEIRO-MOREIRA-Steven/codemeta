@@ -28,6 +28,10 @@ const ContactForm= () => {
       <img src='./images/phone-solid.svg'></img>
       <p>TEL : <br></br> 06.27.57.59.07</p>
       </div>
+      <div className='info_contact'>
+      <img src='./images/address-card-solid.svg'></img>
+      <p>SIRET : <br></br>98234189300013</p>
+      </div>
       </aside>
       <section className='forms'>
       <form className='form_content'>

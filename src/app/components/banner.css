@@ -67,9 +67,12 @@ h3{
     display: flex;
 }
 
-.banner_presentation h2, h3{
+.banner_presentation h3 {
+    animation: zoomIn 5.3s  ease-in-out ;
+}
+
+.banner_presentation h2{
     animation: zoomIn 4.3s  ease-in-out ;
-    transform-origin: center ;
 }
 
 @keyframes zoomIn {

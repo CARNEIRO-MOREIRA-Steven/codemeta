@@ -29,11 +29,15 @@
     justify-content: center;
     width: 80%;
     height: 400px;
-    animation: slideTop 5s cubic-bezier(.68,-0.01,1,1);
+    animation: slideTop 6s cubic-bezier(.68,-0.01,1,1);
 }
 
 @keyframes slideTop {
     0%{
+        transform: translateY(-150%);
+    }
+
+    70%{
         transform: translateY(-150%);
     }
 

@@ -4,6 +4,7 @@
   padding: 20px 0;
   flex-direction: column;
   align-items: center;
+  background-color: #EAE2B7;
 }
 
 .projet_realisation{
@@ -30,9 +31,9 @@
 
 .mac_image {
   position: relative;
-  bottom: 198px;
+  bottom: 210px;
   width: 493px;
-  height: 300px;
+  height: 320px;
 }
 
 .ipad_image{

@@ -33,6 +33,13 @@
     animation: slideTop 6s cubic-bezier(.68,-0.01,1,1);
 }
 
+.service_button_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 @keyframes slideTop {
     0%{
         transform: translateY(-150%);
@@ -79,7 +86,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 800px;
     background-color:  #EAE2B7;
     padding-bottom: 100px;
 }
@@ -132,7 +139,8 @@
     position: relative;
     top: 38px;
     width: 100%;
-    background: linear-gradient(180deg, rgba(237,198,42,1) 0%, rgba(25,25,36,1) 100%);}
+    background: linear-gradient(180deg, rgba(237,198,42,1) 0%, rgba(25,25,36,1) 100%);
+}
 
 .nav.active #select {
     display: flex;
@@ -143,6 +151,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.lien_service{
+    position:  relative;
+    width: 100px;
+    background-color: #19192485;
+    bottom : 8%;
+    height: 50px;
+    z-index: 5;
+}
+
+.lien_service:hover{
+    background-color: #191924;
 }
 
 .service_description{

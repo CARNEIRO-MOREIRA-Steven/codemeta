@@ -71,7 +71,10 @@ const Entreprise = () => {
             fidèlement votre marque. Que vous ayez besoin d'une vitrine en ligne, d'une plateforme e-commerce ou d'un site institutionnel,
             nous sommes là pour donner vie à votre vision.</p>
             </div>
+            <div className='service_button_image'>
             <img alt='image creation site' src='./images/creation_sf.webp' defer></img>
+            <a className='lien_service' href="/services#creation">En savoir plus</a>
+            </div>
         </section>
         <section id='service2' className={`service ${activeServices === 'service2' ? 'active' : ''}`}>
         <div className='service_texte'>
@@ -81,7 +84,10 @@ const Entreprise = () => {
             utilisateur, à optimiser la navigation et à intégrer les dernières fonctionnalités pour une expérience utilisateur exceptionnelle.
             La refonte de votre site est une opportunité de rester en tête des tendances tout en répondant aux attentes changeantes de vos visiteurs.</p>
             </div>
+            <div className='service_button_image'>
             <img alt='image refonte site' src='./images/refonte_sf.webp' defer></img>
+            <a className='lien_service' href="/services#refonte">En savoir plus</a>
+            </div>
         </section>
         <section id='service3' className={`service ${activeServices === 'service3' ? 'active' : ''}`}>
         <div className='service_texte'>
@@ -91,7 +97,10 @@ const Entreprise = () => {
             de manière mémorable. Que vous ayez besoin d'un nouveau logo, de supports marketing ou d'éléments visuels pour votre site, notre équipe créative
             est prête à faire briller votre marque.</p>
             </div>
+            <div className='service_button_image'>
             <img alt='image graphisme site' src='./images/graphisme_sf.webp' defer></img>
+            <a className='lien_service' href="/services#graphisme">En savoir plus</a>
+            </div>
         </section>
         <section id='service4' className={`service ${activeServices === 'service4' ? 'active' : ''}`}>
         <div className='service_texte'>
@@ -101,8 +110,11 @@ const Entreprise = () => {
             des balises méta au contenu, en passant par la structure du site, pour maximiser votre présence en ligne. Notre objectif est de vous positionner en 
             haut des résultats de recherche, attirant un trafic qualifié et augmentant la notoriété de votre marque.</p>
             </div>
+            <div className='service_button_image'>
             <img alt='image seo site' src='./images/seo_sf.webp' defer></img>
-        </section>        
+            <a className='lien_service' href="/services#seo">En savoir plus</a>  
+            </div>   
+        </section>   
         <section id='service5' className={`service ${activeServices === 'service5' ? 'active' : ''}`}>
         <div className='service_texte'>
             <h2>Debogage</h2>
@@ -111,7 +123,10 @@ const Entreprise = () => {
             notre équipe technique intervient de manière efficace pour garantir une expérience utilisateur sans faille. La résolution rapide des problèmes techniques
             est cruciale pour maintenir la confiance de vos visiteurs et assurer la stabilité de votre site web.</p>
             </div>
+            <div className='service_button_image'>
             <img alt='image debogage site' src='./images/debug.webp' defer></img>
+            <a className='lien_service' href="/services#débogage">En savoir plus</a>
+            </div>
         </section>
     </section>
     </section>

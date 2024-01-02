@@ -23,7 +23,7 @@ const Projet = [
     tags : ["HTML", "CSS", "JAVASCRIPT"],
     github :"https://github.com/Squaad6z/Print-it",
     link: "https://squaad6z.github.io/Print-it/",
-    mac : './images/Printit.webp'
+    mac : './images/PrintIt.webp'
   },
   {
     name : "Ohmyfood",

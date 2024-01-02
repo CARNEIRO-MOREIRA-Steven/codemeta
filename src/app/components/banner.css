@@ -10,15 +10,7 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-}
-
-.banner_image{
-    position: relative;
-    top: 50px;
-    transform: rotate(-30deg);
-    width: 150px;
-    height: 90px;
-    object-fit: cover;
+    align-items: center;
 }
 
 .banner{
@@ -119,9 +111,5 @@ h3{
 
     .banniere_image{
         width: 100%;
-    }
-
-    .banner_image{
-        display: none;
     }
 }

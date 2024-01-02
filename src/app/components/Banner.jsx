@@ -28,7 +28,6 @@ const Banner = () => {
         <h3>Experts en développement web, nous offrons des solutions uniques pour propulser votre entreprise dans le monde digital.</h3>
       </section>
       <section className='banner'>
-      <img className='banner_image' alt='image carte visite' src='./images/carte_visite.webp'></img>
       <img className='banniere_image' alt='image banniere' src='./images/banniere.webp'></img>
       </section>
     </section>

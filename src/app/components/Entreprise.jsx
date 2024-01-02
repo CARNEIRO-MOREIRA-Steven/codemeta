@@ -73,7 +73,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image creation site' src='./images/creation_sf.webp' defer></img>
-            <a className='lien_service' href="/services#creation">En savoir plus</a>
+            <a className='lien_service border_service' href="/services#creation"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service2' className={`service ${activeServices === 'service2' ? 'active' : ''}`}>
@@ -86,7 +86,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image refonte site' src='./images/refonte_sf.webp' defer></img>
-            <a className='lien_service' href="/services#refonte">En savoir plus</a>
+            <a className='lien_service border_service' href="/services#refonte"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service3' className={`service ${activeServices === 'service3' ? 'active' : ''}`}>
@@ -99,7 +99,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image graphisme site' src='./images/graphisme_sf.webp' defer></img>
-            <a className='lien_service' href="/services#graphisme">En savoir plus</a>
+            <a className='lien_service border_service' href="/services#graphisme"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service4' className={`service ${activeServices === 'service4' ? 'active' : ''}`}>
@@ -112,7 +112,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image seo site' src='./images/seo_sf.webp' defer></img>
-            <a className='lien_service' href="/services#seo">En savoir plus</a>  
+            <a className='lien_service border_service' href="/services#seo"><span>En savoir plus</span></a>  
             </div>   
         </section>   
         <section id='service5' className={`service ${activeServices === 'service5' ? 'active' : ''}`}>
@@ -125,7 +125,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image debogage site' src='./images/debug.webp' defer></img>
-            <a className='lien_service' href="/services#débogage">En savoir plus</a>
+            <a className='lien_service border_service' href="/services#débogage"><span>En savoir plus</span></a>
             </div>
         </section>
     </section>

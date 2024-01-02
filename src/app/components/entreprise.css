@@ -158,12 +158,52 @@
     width: 100px;
     background-color: #19192485;
     bottom : 8%;
-    height: 50px;
+    border-radius: 25px;
+    height: 30px;
     z-index: 5;
+}
+
+.lien_service span{
+    z-index: 1;
 }
 
 .lien_service:hover{
     background-color: #191924;
+    color: white;
+}
+
+.border_service {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.border_service::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: #edc62a;
+    animation: border-animation 3s linear infinite;
+}
+
+.border_service::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #0e1739;
+    border-radius: 30px;
+}
+
+@keyframes border-animation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .service_description{

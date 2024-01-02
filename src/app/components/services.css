@@ -8,16 +8,6 @@
     flex-direction: column;
 }
 
-.background_devweb{
-    position: absolute;
-    top: 650px;
-    width: 100%;
-    object-fit: cover;
-    height: 450px;
-    opacity: 0.3;
-}
-
-
 .services_page p{
     margin: 0;
 }

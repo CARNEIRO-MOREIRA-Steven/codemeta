@@ -130,7 +130,6 @@
 .service.active{
     display: flex;
     align-items: center;
-    border: solid 1px;
 }
 
 #select{

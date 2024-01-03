@@ -75,6 +75,7 @@
 
 .description_texte h3{
     animation: opacity 1s ease-in-out;
+    justify-content: center;
 }
 
 .description_texte p {

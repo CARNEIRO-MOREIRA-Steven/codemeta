@@ -35,31 +35,31 @@ const Entreprise = () => {
         <div className={activeServices === 'service1' ? 'nav active' : '' } >
         <p onClick={() => Service('service1')}>Création</p>
         <img alt='image creation site' onClick={() => Service('service1')} 
-        src='./images/creation_sf.webp' defer></img>
+        src='./images/laptop-code-solid.svg' className='icon-color' defer></img>
         <hr id='select'></hr>
         </div>
         <div className={activeServices === 'service2' ? 'nav active' : '' }>
         <p onClick={() => Service('service2')}>Refonte</p>
         <img alt='image refonte site' onClick={() => Service('service2')}
-         src='./images/refonte_sf.webp' defer></img>
+         src='./images/window-restore-solid.svg' defer></img>
         <hr id='select'></hr>
         </div>
         <div className={activeServices === 'service3' ? 'nav active' : '' } >
         <p onClick={() => Service('service3')}>Graphisme</p>
         <img alt='image graphisme site' onClick={() => Service('service3')} 
-        src='./images/graphisme_sf.webp' defer></img>
+        src='./images/palette-solid.svg' defer></img>
         <hr id='select'></hr>
         </div>
         <div className={activeServices === 'service4' ? 'nav active' : '' }>
         <p onClick={() => Service('service4')}>SEO</p>
         <img alt='image seo site' onClick={() => Service('service4')} 
-        src='./images/seo_sf.webp' defer></img>
+        src='./images/gears-solid.svg' defer></img>
         <hr id='select'></hr>
         </div>
         <div className={activeServices === 'service5' ? 'nav active' : '' }>
         <p onClick={() => Service('service5')}>Débogage</p>
         <img alt='image debogage site' onClick={() => Service('service5')} 
-        src='./images/debug.webp' defer></img>
+        src='./images/bug-slash-solid.svg' defer></img>
         <hr id='select'></hr>
         </div>
         </nav> 

@@ -104,7 +104,6 @@
     cursor: pointer;
     padding-bottom: 30px;
     justify-content: space-around;
-    border-bottom: 3px solid #edc62a;
 }
 
 .nav_services div{
@@ -115,8 +114,8 @@
 
 .nav_services img{
     height: 100px;
-    width: 150px;
-    object-fit: cover;
+    width: 125px;
+    object-fit: contain;
 }
 
 .service{
@@ -137,13 +136,14 @@
 #select{
     display: none;
     position: relative;
-    top: 38px;
+    top: 20px;
     width: 100%;
-    background: linear-gradient(180deg, rgba(237,198,42,1) 0%, rgba(25,25,36,1) 100%);
+    background: rgba(237,198,42,1);
 }
 
 .nav.active #select {
     display: flex;
+    margin: 0;
 }
 
 .service_texte{
@@ -156,7 +156,7 @@
 .lien_service{
     position:  relative;
     width: 100px;
-    background-color: #19192485;
+    background-color: #191924;
     bottom : 8%;
     border-radius: 25px;
     height: 30px;
@@ -167,10 +167,6 @@
     z-index: 1;
 }
 
-.lien_service:hover{
-    background-color: #191924;
-    color: white;
-}
 
 .border_service {
     position: relative;
@@ -213,7 +209,7 @@
 .service img{
     width: 400px;
 }
-
+/* 
 #service1{
     background-image: linear-gradient(147deg, #FFE53B 0%, #b92c2c 83%);
 }
@@ -232,7 +228,7 @@
 
 #service5{
     background: linear-gradient(250deg, rgba(93,178,255,1) 0%, rgba(119,147,255,1) 46%, rgba(133,130,255,1) 54%, rgba(155,103,255,1) 100%);
-}
+} */
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
    .services{

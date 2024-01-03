@@ -13,7 +13,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/html.webp'></img>
+    <img src='./images/html.webp' alt='logo html'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -27,7 +27,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/css3.webp'></img>
+    <img src='./images/css3.webp' alt='logo css'></img>
       <svg version="1.1">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -41,7 +41,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/sass.png'></img>
+    <img src='./images/sass.webp' alt='logo sass'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -55,7 +55,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/js.webp'></img>
+    <img src='./images/js.webp' alt='logo javascript'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -69,7 +69,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/react.webp'></img>
+    <img src='./images/react.webp' alt='logo react'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -83,7 +83,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/redux.webp'></img>
+    <img src='./images/redux.webp' alt='logo redux'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -97,7 +97,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/next.webp'></img>    
+    <img src='./images/next.webp' alt='logo next'></img>    
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -113,7 +113,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/git.png'></img>
+    <img src='./images/git.webp' alt='logo git'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -127,7 +127,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/github.svg'></img>
+    <img src='./images/github.webp' alt='logo github'></img>
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
     <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -141,7 +141,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/vscode.svg'></img>
+    <img src='./images/vscode.webp'alt='logo vscode'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -155,7 +155,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/devtools.webp'></img>
+    <img src='./images/devtools.webp' alt='logo devtools'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>
@@ -169,7 +169,7 @@ const HardSkills = () => {
       <div className="filledbar"></div>
     </div>
     <div className="circle">
-    <img src='./images/lighthouse.webp'></img>
+    <img src='./images/lighthouse.webp' alt='logo lighthouse'></img>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle className="stroke" cx="60" cy="60" r="50"/>
     </svg>

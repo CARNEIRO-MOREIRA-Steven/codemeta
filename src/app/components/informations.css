@@ -13,6 +13,7 @@
     position: absolute;
     top: 170px;
     width: 50%;
+    z-index: 1;
 }
 
 .menu_presentation ul{
@@ -22,11 +23,13 @@
 
 .menu_presentation a{
     padding: 10px 15px;
-    color: black;
+    color: white;
+    border-radius: 25px;
+    background-color: #191924;
 }
 
 .menu_presentation ul li.active a {
-    color: #EDC62A;
+    color: #ffbf00;
   }
 
 .card{
@@ -35,7 +38,6 @@
 
 .card_content{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 50px;
 }
@@ -44,28 +46,13 @@
     display: block;
     height: 100%;
     color: black;
-    width: 90%;
+    width: 100%;
     border-radius: 40px;
-    margin: 100px 0px;
   }
 
 .card h2{
     display: none;
 }
-
-#card1 .card_content{
-    flex-direction: row-reverse;
-}
-
-#card2 .card_content{
-    flex-direction: row-reverse;
-}
-
-#card2 .photo.personnelle{
-    border-radius: 0px 40px 40px 0px;
-}
-
-
 
 .personnelle h2{
     justify-content: flex-end;
@@ -80,10 +67,28 @@
     line-height: 20px;
 }
 
-
 .description_texte{
-    width: 55%;
+    width: 60%;
     padding: 0px 25px;
+    text-align: center;
+}
+
+.description_texte h3{
+    animation: opacity 1s ease-in-out;
+}
+
+.description_texte p {
+    animation: opacity 5s ease-in-out;
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 .description_aside{
@@ -96,9 +101,12 @@
 
 .description_aside ul{
     display: flex;
-    padding: 0;
+    padding: 10px;
     margin: 40px 0 20px;
     width: 95%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .description_aside p{
@@ -110,6 +118,27 @@
     width: 800px;
     position: relative;
     right: 310px;
+}
+
+.list.inactive{
+    background-color: #191924;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.list.click{
+    width: 40%;
+    background-color: #cac291;  
+    border-radius: 25px;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .photo.formation{
@@ -131,6 +160,46 @@
     border-radius: 40px 0px;
 }
 
+.photo.personnelle{
+    object-fit: cover;
+    height: 70.3%;
+    position: absolute;
+    width: 35%;
+    right: 0px;
+    bottom: 100px;
+}
+
+.photo.entreprise{
+    position: absolute;
+    bottom: -7%;
+    left: -17%;
+    height: 600px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#card2 .card.active{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#card2 .card_container{
+    align-items: flex-end;
+}
+
+#card2 .card_content{
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+
+#card2 .description_texte{
+    width: 55%;
+}
+
+#card2 .description_aside{
+    justify-content: flex-end;
+    width: 55%;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .presentation_page{
@@ -142,6 +211,10 @@
     .photo.formation{
         width: 200px;
         height: 250px;
+    }
+
+    .photo.entreprise{
+        left: -40%;
     }
 
     .card.active{
@@ -156,6 +229,15 @@
         padding: 0px 20px 20px 50px;
     }
 
+    #card2 .card_content{
+        margin: 0;
+    }
+
+    #card2 .card_container {
+        align-items: flex-end;
+        height: 750px;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
@@ -166,9 +248,15 @@
         width: 100%;
         border-radius: 40px 40px 40px 0;
     }
+
+    .photo.personnelle{
+        position: initial;
+        width: 200px;
+    }
     #card1 .card_content{
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse ;
+        gap: 0;
     }
     .description_texte{
         width: 95%;
@@ -188,8 +276,31 @@
         padding: 10px;
     }
 
+    #card2{
+        padding: 0;
+    }
+
     #card2 .card_content {
         flex-direction: column;
+        margin: 0;
+    }
+
+    #card2 .description_aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    .description_aside ul{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .list.click{
+        width: 80%;
+    }
+
+    #card2 .description_aside p{
+        width: 90%;
     }
 
     #card2 .photo.personnelle{
@@ -206,8 +317,12 @@
         width: 100%;
     }
 
+    .photo.entreprise{
+        display: none;
+    }
+
     .card.active{
-        margin-bottom: 0;
+        margin-top: 100px;
     }
 }
 
@@ -217,8 +332,62 @@
     }
 }
 
-@media screen and (min-width: 1441px){
+@media screen and (min-width: 1441px) and (max-width: 2000px){
+    .presentation{
+        height: 100%;
+    }
+
     .presentation_page{
-        height: 666px;
+        min-height: 73.1%;
+    }
+
+    .card.active{
+        margin : 0px;
+    }
+
+    .description_aside{
+        width: 70%;
+    }
+
+    .photo.personnelle{
+        object-fit: contain;
+    }
+
+    .photo.entreprise{
+        left: -6.5%;
+        bottom: 10px;
+    }
+
+    #card2 .description_texte{
+        width: 60%;
+        text-align: start;
+    }
+    #card2 .description_aside{
+        width: 60%;
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2600px){
+    #card2 .description_texte{
+        width: 90%;
+        text-align: start;
+    }
+
+    #card2 .card_container{
+        height: auto;
+    }
+
+    .photo.entreprise{
+       bottom: 4.8%;
+    }
+
+    #card2 .card_content{
+        margin: 0;
+    }
+
+    #card2 .description_aside{
+        width: 70%;
+        align-items: start;
     }
 }

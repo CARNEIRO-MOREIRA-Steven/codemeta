@@ -10,8 +10,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 550px;
     gap: 100px;
+}
+
+.container_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_complement{
+    position: relative;
+    bottom: 100px;
+    width: 500px;
+}
+
+.form_complement li {
+    list-style: circle;
+}
+
+.form_complement h4{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form_complement ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .forms {
@@ -63,6 +91,7 @@
 
 .info_contact img{
     width: 30px;
+    height: 100%;
     padding-right: 30px;
 }
 
@@ -115,8 +144,6 @@ iframe{
         height: 400px;
     }
 
-
-
     .aside_form{
         width: 40%;
         height: 400px;
@@ -124,6 +151,10 @@ iframe{
 
     .contact_section{
         gap: 30px;
+    }
+
+    .form_complement{
+        width: 320px;
     }
 }
 
@@ -153,6 +184,16 @@ iframe{
     .aside_form{
         width: 95%;
         height: 400px;
+    }
+
+    .container_form{
+        align-items: center;
+    }
+
+    .form_complement{
+        position: initial;
+        width: 90%;
+        text-align: center;
     }
 
     .info_contact img{

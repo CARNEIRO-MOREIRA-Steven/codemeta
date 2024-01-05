@@ -45,7 +45,7 @@ const Informations = () => {
         <section className='card_content'>
         <img className='photo entreprise' alt='image developpeur' src='./images/codemeta_solutions.png'></img>
         <section className='description_texte'>
-        <h3>Bienvenue dans l'univers de CodeMeta Solutions! 🚀</h3>
+        <h3 id='description_title_entreprise'>Bienvenue dans l'univers de CodeMeta Solutions! 🚀</h3>
         <p>Développeur passionné derrière cette micro-entreprise dédiée au monde du développement web.</p>
         <p>Chez CodeMeta Solutions, notre mission est de transformer des idées en expériences en ligne exceptionnelles.
         Nous croyons en la puissance du code pour donner vie à des projets uniques et fonctionnels.</p>

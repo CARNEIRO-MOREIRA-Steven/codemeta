@@ -23,6 +23,7 @@
 
 .service-detail.visible {
     opacity: 1; /* Make the section visible */
+    
 }
 
 .service_texte{
@@ -160,6 +161,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px){
     .service-detail{
         height: 100%;
+        margin-top: 100px;
     }
 
     .service_texte{

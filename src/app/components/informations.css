@@ -375,6 +375,10 @@
         text-align: start;
     }
 
+    #description_title_entreprise{
+        justify-content: flex-start;
+    }
+
     #card2 .card_container{
         height: auto;
     }

@@ -5,8 +5,8 @@
     display: flex;
     justify-content:center;
     align-items: flex-start;
-    color: white;
-    background-color: #191924;
+    color: #ffffff;
+    background-color: #191924fa;
     position: relative;
     z-index: 2;
     overflow: hidden;

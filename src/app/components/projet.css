@@ -21,7 +21,6 @@
     border-radius: 25px;
     padding: 15px;
     background: linear-gradient(90deg, rgba(87,69,0,1) 0%, rgba(237,198,42,1) 100%);
-    color: white;
     border: none;
     font-size: 15px;
     cursor: pointer;
@@ -39,6 +38,7 @@
 
 .contact_button a{
     padding: 0;
+    color: #191924;
 }
 
 .background_projet{
@@ -55,30 +55,42 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
-    background-color:#edc62a54;
+    justify-content: space-between;
+    background-color:#edc62a;
     z-index: +1;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    top: 180px;
+}
+
+.contact:hover{
+    top: 0;
 }
 
 .contact h3{
-    margin-top: 20px;
-    color: white;
+    margin-top: 30px;
+    color: #191924;
     position: relative;
 }
 
-.contact p {
-    color: white;
+#me_contacter p , #me_suivre p , #mes_services p {
+    color: #191924;
     text-align: center;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 5px;
+}
+
+.contact a {
+    color: #191924;
 }
 
 .card_projet{
     display: flex;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
@@ -95,7 +107,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     .background_projet{
-        height: 750px;
+        height: 920px;
     }
 
     .container_projet h2{
@@ -113,12 +125,82 @@
     }
 
     .container_projet{
-        margin-bottom: -630px;
+        margin-bottom: -770px;
     }
 
     .contact{
-        height: 200px;
         width: 80%;
         border-radius: 25px;
+        top: 0;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        justify-content: center;
     }
+
+    .contact p{
+        display: none;
+    }
+
+    #me_contacter p {
+        display: none;
+    }
+
+    #me_contacter button{
+        display: none;
+    }
+
+    #mes_services p{
+        display: none;
+    }
+
+    #me_suivre p{
+        display: none;
+    }
+
+    #me_contacter ,#me_suivre {
+        width: 10%;
+        overflow: hidden;
+        left: -45%;
+    }
+
+    #mes_services{
+        width: 10%;
+        right: -45%;
+        overflow: hidden;
+    }
+
+    #me_contacter:hover{
+        width: 80%;
+        left: -10%;
+        writing-mode: horizontal-tb;
+    }
+
+    #me_suivre:hover{
+        width: 80%;
+        left: -10%;
+        writing-mode: horizontal-tb;
+    }
+
+    #mes_services:hover{
+        width: 80%;
+        right: -10%;
+        writing-mode: horizontal-tb;
+    }
+
+    #me_contacter:hover  p {
+        display: flex;
+    }
+
+    #me_contacter:hover button{
+        display: flex;
+    }
+
+    #mes_services:hover p{
+        display: flex;
+    }
+
+    #me_suivre:hover p{
+        display: flex;
+    }
+    
 }

@@ -66,66 +66,66 @@ const Entreprise = () => {
         <section id='service1' className={`service ${activeServices === 'service1' ? 'active' : ''}`}>
             <div className='service_texte'>
             <h2>Création de site</h2>
-            <p className='service_description'>Notre service de création de site web sur mesure repose sur une approche holistique, alliant design esthétique et fonctionnalités avancées.
+            {/* <p className='service_description'>Notre service de création de site web sur mesure repose sur une approche holistique, alliant design esthétique et fonctionnalités avancées.
             Nous commençons par comprendre vos objectifs commerciaux et vos besoins spécifiques, puis nous concevons et développons un site qui représente
             fidèlement votre marque. Que vous ayez besoin d'une vitrine en ligne, d'une plateforme e-commerce ou d'un site institutionnel,
-            nous sommes là pour donner vie à votre vision.</p>
+            nous sommes là pour donner vie à votre vision.</p> */}
             </div>
             <div className='service_button_image'>
-            <img alt='image creation site' src='./images/creation_sf.webp' defer></img>
+            <img alt='image creation site' src='./images/creation_sf.webp' loading='lazy'></img>
             <a className='lien_service border_service' href="/services#creation"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service2' className={`service ${activeServices === 'service2' ? 'active' : ''}`}>
         <div className='service_texte'>
             <h2>Refonte</h2>
-            <p className='service_description'>La refonte de votre site web est bien plus qu'un simple rafraîchissement esthétique. Nous entreprenons une analyse approfondie de votre site actuel,
+            {/* <p className='service_description'>La refonte de votre site web est bien plus qu'un simple rafraîchissement esthétique. Nous entreprenons une analyse approfondie de votre site actuel,
             identifiant les points forts et les domaines d'amélioration. Notre équipe de designers et de développeurs travaille ensuite à moderniser l'interface
             utilisateur, à optimiser la navigation et à intégrer les dernières fonctionnalités pour une expérience utilisateur exceptionnelle.
-            La refonte de votre site est une opportunité de rester en tête des tendances tout en répondant aux attentes changeantes de vos visiteurs.</p>
+            La refonte de votre site est une opportunité de rester en tête des tendances tout en répondant aux attentes changeantes de vos visiteurs.</p> */}
             </div>
             <div className='service_button_image'>
-            <img alt='image refonte site' src='./images/refonte_sf.webp' defer></img>
+            <img alt='image refonte site' src='./images/refonte_sf.webp' loading='lazy'></img>
             <a className='lien_service border_service' href="/services#refonte"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service3' className={`service ${activeServices === 'service3' ? 'active' : ''}`}>
         <div className='service_texte'>
             <h2>Graphisme</h2>
-            <p className='service_description'>Notre service de graphisme va au-delà de la simple création d'images attrayantes. Nous sommes des artisans visuels, donnant vie à votre identité
+            {/* <p className='service_description'>Notre service de graphisme va au-delà de la simple création d'images attrayantes. Nous sommes des artisans visuels, donnant vie à votre identité
             de marque à travers des designs percutants. Du choix des couleurs à la typographie, chaque élément est soigneusement pensé pour transmettre votre message
             de manière mémorable. Que vous ayez besoin d'un nouveau logo, de supports marketing ou d'éléments visuels pour votre site, notre équipe créative
-            est prête à faire briller votre marque.</p>
+            est prête à faire briller votre marque.</p> */}
             </div>
             <div className='service_button_image'>
-            <img alt='image graphisme site' src='./images/graphisme_sf.webp' defer></img>
+            <img alt='image graphisme site' src='./images/graphisme_sf.webp' loading='lazy'></img>
             <a className='lien_service border_service' href="/services#graphisme"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service4' className={`service ${activeServices === 'service4' ? 'active' : ''}`}>
         <div className='service_texte'>
             <h2>SEO</h2>
-            <p className='service_description'>Améliorer votre classement sur les moteurs de recherche est essentiel pour accroître la visibilité de votre site. Notre service de référencement
+            {/* <p className='service_description'>Améliorer votre classement sur les moteurs de recherche est essentiel pour accroître la visibilité de votre site. Notre service de référencement
             (SEO) est une approche complète qui commence par une analyse approfondie de votre site et de votre concurrence. Nous optimisons ensuite chaque aspect,
             des balises méta au contenu, en passant par la structure du site, pour maximiser votre présence en ligne. Notre objectif est de vous positionner en 
-            haut des résultats de recherche, attirant un trafic qualifié et augmentant la notoriété de votre marque.</p>
+            haut des résultats de recherche, attirant un trafic qualifié et augmentant la notoriété de votre marque.</p> */}
             </div>
             <div className='service_button_image'>
-            <img alt='image seo site' src='./images/seo_sf.webp' defer></img>
+            <img alt='image seo site' src='./images/seo_sf.webp' loading='lazy'></img>
             <a className='lien_service border_service' href="/services#seo"><span>En savoir plus</span></a>  
             </div>   
         </section>   
         <section id='service5' className={`service ${activeServices === 'service5' ? 'active' : ''}`}>
         <div className='service_texte'>
             <h2>Debogage</h2>
-            <p className='service_description'>Les problèmes techniques peuvent rapidement entraver la performance de votre site web. Notre service de débogage est là pour identifier et résoudre
+            {/* <p className='service_description'>Les problèmes techniques peuvent rapidement entraver la performance de votre site web. Notre service de débogage est là pour identifier et résoudre
             rapidement ces problèmes, assurant un fonctionnement optimal. Que ce soit des erreurs de code, des problèmes de compatibilité ou des performances lentes,
             notre équipe technique intervient de manière efficace pour garantir une expérience utilisateur sans faille. La résolution rapide des problèmes techniques
-            est cruciale pour maintenir la confiance de vos visiteurs et assurer la stabilité de votre site web.</p>
+            est cruciale pour maintenir la confiance de vos visiteurs et assurer la stabilité de votre site web.</p> */}
             </div>
             <div className='service_button_image'>
-            <img alt='image debogage site' src='./images/debug.webp' defer></img>
-            <a className='lien_service border_service' href="/services#débogage"><span>En savoir plus</span></a>
+            <img alt='image debogage site' src='./images/debug.webp' loading='lazy'></img>
+            <a className='lien_service' href="/services#débogage"><span>En savoir plus</span></a>
             </div>
         </section>
     </section>

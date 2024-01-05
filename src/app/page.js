@@ -9,9 +9,9 @@ export default function Home() {
     <main className='main'>
       <Header />
       <Banner />
-      <Entreprise />
-      <Projet />
-      <Footer />
+      <Entreprise defer/>
+      <Projet defer/>
+      <Footer defer/>
     </main>
   )
 }

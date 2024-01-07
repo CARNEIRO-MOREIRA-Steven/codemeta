@@ -197,7 +197,7 @@ const ServicesPage = () => {
       ),
     },
     {
-      title: 'Débogage',
+      title: 'Debogage',
       description: (
         <>
           <p className='service_description'>

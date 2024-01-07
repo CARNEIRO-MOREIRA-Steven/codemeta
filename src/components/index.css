@@ -84,12 +84,20 @@ li{
     }
     
 }
-
+.navbar p:hover{
+    color: #edc62a;
+}
+.sous_menu{
+    display: flex;
+    justify-content: center;
+}
 .sous_menu_inactif{
     display: none;
+    top: 90px;
 }
-
-
+.sous_menu_inactif li{
+    text-align: center;
+}
 a{
     text-decoration: none;
     color: white;
@@ -98,8 +106,6 @@ a{
     align-items: center;
     display: flex;
 }
-
-
 
 hr{
     height: 2px;

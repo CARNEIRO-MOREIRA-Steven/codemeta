@@ -112,4 +112,7 @@ h3{
     .banniere_image{
         width: 100%;
     }
+    h1{
+        font-size: 28px;
+    }
 }

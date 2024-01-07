@@ -29,7 +29,7 @@ const Informations = () => {
       <h2>Présentation personnelle</h2>
         <section className='card_container'>
         <section className='card_content'>
-        <img className='photo personnelle' alt='ma photo de profil' src='./images/photoprofil2.png'></img>
+        <img className='photo personnelle' alt='ma photo de profil' src='./images/photoprofil.webp'/>
         <aside className='description_texte'>
         <h3>Salut ! Je suis Steven,</h3>
         <p>le créateur derrière chaque ligne de code sur ce site.</p>
@@ -43,7 +43,7 @@ const Informations = () => {
     <h2>Présentation de l'entreprise</h2>
         <section className='card_container'>
         <section className='card_content'>
-        <img className='photo entreprise' alt='image developpeur' src='./images/codemeta_solutions.png'></img>
+        <img className='photo entreprise' loading='lazy' alt='image developpeur' src='./images/codemeta_solutions.png'></img>
         <section className='description_texte'>
         <h3 id='description_title_entreprise'>Bienvenue dans l'univers de CodeMeta Solutions! 🚀</h3>
         <p>Développeur passionné derrière cette micro-entreprise dédiée au monde du développement web.</p>
@@ -85,7 +85,7 @@ const Informations = () => {
         <h2>Formations</h2>
         <section className='card_container'>
         <section className='card_content'>
-        <img className='photo formation' src='./images/formation.jpg'></img>
+        <img className='photo formation' loading='lazy' src='./images/formation.jpg'></img>
         <aside className='description_texte'>
         <h3>Formation d'Initialisation Fullstack (3 mois) - OpenClassrooms</h3>
         <p>Pour moi, tout a commencé avec cette formation intensive de 3 mois chez OpenClassrooms.

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Realisation from '../components/Realisation'
 import Footer from '../components/Footer'
+import '../app/globals.css'
 
 const Réalisations = () => {
     return (

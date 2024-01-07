@@ -1,16 +1,17 @@
 import React from 'react'
 import Header from '../components/Header'
-import ServicesPage from '../components/Services'
+import Skills from '../components/hardSkills'
 import Footer from '../components/Footer'
+import '../app/globals.css'
 
-const Services = () => {
+const HardSkills = () => {
     return (
         <main>
           <Header />
-          <ServicesPage />
+          <Skills />
           <Footer />
-        </main>
+          </main>
       )
 }
 
-export default Services
+export default HardSkills

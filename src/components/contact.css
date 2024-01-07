@@ -112,7 +112,7 @@ select{
     margin-bottom: 10px;
 }
 
-.email, .name, .telephone,  .besoin, .objet{
+.email, .name, .tel,  .message, .subject{
     display: flex;
     flex-direction: column;
     align-items: center;

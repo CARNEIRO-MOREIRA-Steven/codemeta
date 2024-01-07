@@ -127,13 +127,29 @@
   }
 
   @media screen and (min-width: 320px) and (max-width: 767px) {
+    .container_skills{
+      margin: 15px;
+    }
+    .card_skills{
+      width: 50%;
+    }
     .card_skills:not(:first-child) {
       margin-left: 0;
   }
-
+  .bar{
+    width: 90%;
+    left: 10px;
+    top: 75px;
+  }
+  .circle{
+    top: 195px;
+  }
+  .card_skills:hover .card_skills_texte {
+    overflow: scroll;
+  }
   .card_skills:hover ~ .card_skills {
     position: relative;
-    left: 20px;
+    left: 0px;
     transition: 0.4s ease-out;
   }
   .card_skills:hover {

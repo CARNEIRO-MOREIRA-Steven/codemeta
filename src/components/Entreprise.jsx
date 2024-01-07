@@ -73,7 +73,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image creation site' src='./images/creation_sf.webp' loading='lazy'></img>
-            <a className='lien_service border_service' href="/services#creation"><span>En savoir plus</span></a>
+            <a className='lien_service border_service' href="/services#création-de-site"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service2' className={`service ${activeServices === 'service2' ? 'active' : ''}`}>
@@ -117,7 +117,7 @@ const Entreprise = () => {
         </section>   
         <section id='service5' className={`service ${activeServices === 'service5' ? 'active' : ''}`}>
         <div className='service_texte'>
-            <h2>Debogage</h2>
+            <h2>Débogage</h2>
             {/* <p className='service_description'>Les problèmes techniques peuvent rapidement entraver la performance de votre site web. Notre service de débogage est là pour identifier et résoudre
             rapidement ces problèmes, assurant un fonctionnement optimal. Que ce soit des erreurs de code, des problèmes de compatibilité ou des performances lentes,
             notre équipe technique intervient de manière efficace pour garantir une expérience utilisateur sans faille. La résolution rapide des problèmes techniques
@@ -125,7 +125,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image debogage site' src='./images/debug.webp' loading='lazy'></img>
-            <a className='lien_service' href="/services#débogage"><span>En savoir plus</span></a>
+            <a className='lien_service' href="/services#debogage"><span>En savoir plus</span></a>
             </div>
         </section>
     </section>

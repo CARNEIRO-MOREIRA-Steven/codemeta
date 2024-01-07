@@ -201,63 +201,47 @@
     justify-content: flex-end;
     width: 55%;
 }
-
+/*     Tablette           */
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .presentation_page{
-        height: auto;
         min-height: 587.5px;
         justify-content: center;
     }
-
     .photo.formation{
         width: 200px;
         height: 250px;
     }
-
     .photo.entreprise{
         left: -40%;
     }
-
     .card.active{
         margin-top: 120px;
     }
-
     .card_content{
         gap: 20px;
     }
-
     #card3 .description_texte{
         padding: 0px 20px 20px 50px;
     }
-
     #card2 .card_content{
         margin: 0;
     }
-
-    #card2 .card_container {
-        align-items: flex-end;
-        height: 750px;
-    }
-
 }
-
+/*         Téléphone           */
 @media screen and (min-width: 320px) and (max-width: 767px){
-    .card_content{
-        flex-direction: column;
-    }
-    .photo{
-        width: 100%;
-        border-radius: 40px 40px 40px 0;
-    }
-
     .photo.personnelle{
         position: initial;
         width: 200px;
     }
-    #card1 .card_content{
-        align-items: center;
-        flex-direction: column-reverse ;
-        gap: 0;
+    .photo.formation{
+        height: auto;
+        width: 100%;
+    }
+    .photo.entreprise{
+        display: none;
+    }
+    .card_content{
+        flex-direction: column ;
     }
     .description_texte{
         width: 95%;
@@ -265,74 +249,43 @@
     }
     .menu_presentation{
         width: 100%;
-        justify-content: center;
-        height: 50px;
     }
     .menu_presentation ul{
-        gap: 0;
+        gap: 10px;
         padding: 0;
+        margin: 0;
     }
-
     .menu_presentation a{
         padding: 10px;
     }
-
-    #card2{
-        padding: 0;
+    #card1 .card_content{
+        flex-direction: column-reverse;
     }
-
     #card2 .card_content {
-        flex-direction: column;
         margin: 0;
     }
-
     #card2 .description_aside{
         width: 100%;
         padding: 0;
     }
-
     .description_aside ul{
         flex-direction: column;
         margin-top: 0;
     }
-
     .list.click{
         width: 80%;
+        height: 100%;
     }
-
     #card2 .description_aside p{
         width: 90%;
     }
-
-    #card2 .photo.personnelle{
-        border-radius: 40px 40px;
-        height: 250px;
-    }
-
     #card3 .description_texte {
         padding: 20px 20px 20px 20px;
     }
-
-    .photo.formation{
-        height: auto;
-        width: 100%;
-    }
-
-    .photo.entreprise{
-        display: none;
-    }
-
     .card.active{
         margin-top: 100px;
     }
 }
-
-@media screen and (min-width: 500px) and (max-width: 767px){
-    #card2 .photo.personnelle{
-        height: 350px;
-    }
-}
-
 @media screen and (min-width: 1441px) and (max-width: 2000px){
     .presentation{
         height: 100%;
@@ -374,14 +327,13 @@
         width: 90%;
         text-align: start;
     }
-
+    .card_container{
+        height: 666px;
+    }
     #description_title_entreprise{
         justify-content: flex-start;
     }
 
-    #card2 .card_container{
-        height: auto;
-    }
 
     .photo.entreprise{
        bottom: 4.8%;

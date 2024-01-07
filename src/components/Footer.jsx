@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer id='footer_contact'>
         <Reseaux />
-        <img alt='logo footer' src='./images/logo-sansfond.webp'></img>
+        <img alt='logo footer' src='./images/logo-sansfond-petit.webp'></img>
     </footer>
   )
 }

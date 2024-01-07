@@ -73,7 +73,7 @@ const Entreprise = () => {
             </div>
             <div className='service_button_image'>
             <img alt='image creation site' src='./images/creation_sf.webp' loading='lazy'></img>
-            <a className='lien_service border_service' href="/services#création-de-site"><span>En savoir plus</span></a>
+            <a className='lien_service border_service' href="/services#creation"><span>En savoir plus</span></a>
             </div>
         </section>
         <section id='service2' className={`service ${activeServices === 'service2' ? 'active' : ''}`}>

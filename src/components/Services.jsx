@@ -61,7 +61,8 @@ const ServiceDetail = ({ id, title, description, aside }) => {
 const ServicesPage = () => {
 
   const services = [
-    {
+    { 
+      id : "creation",
       title: 'Création de site',
       description: (
         <>
@@ -99,6 +100,7 @@ const ServicesPage = () => {
 ),
     },
     {
+      id : "refonte",
       title: 'Refonte',
       description: (
         <>
@@ -136,6 +138,7 @@ const ServicesPage = () => {
       ),
     },
     {
+      id : "graphisme",
       title: 'Graphisme',
       description: (
         <>
@@ -161,7 +164,8 @@ const ServicesPage = () => {
               </aside>    
       ) ,
     },
-    {
+    { 
+      id : "seo",
       title: 'SEO',
       description: (
         <>
@@ -196,8 +200,9 @@ const ServicesPage = () => {
             </aside>     
       ),
     },
-    {
-      title: 'Debogage',
+    { 
+      id : "debogage",
+      title: 'Débogage',
       description: (
         <>
           <p className='service_description'>
@@ -238,7 +243,7 @@ const ServicesPage = () => {
       {services.map((service, index) => (
         <ServiceDetail
           key={index}
-          id={service.title.toLowerCase().replace(/\s+/g, '-')}
+          id={service.id}
           title={service.title}
           description={service.description}
           aside={service.aside}

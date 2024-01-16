@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
-import ServicesPage from '../components/Services'
-import Footer from '../components/Footer'
-import '../app/globals.css'
+import Header from '../../components/Header'
+import ServicesPage from '../../components/Services'
+import Footer from '../../components/Footer'
+import '../globals.css'
 
 const Services = () => {
     return (

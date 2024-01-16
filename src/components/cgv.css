@@ -1,0 +1,103 @@
+.cgv_page{
+    height: 613px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.cgv{
+    width: 30%;
+}
+
+.cgv_texte{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.cgv_image{
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    object-fit:cover;
+    border-radius: 20% 20% 20% 20%;
+}
+
+#lien_pdf{
+    color: white;
+    padding: 0;
+    height: 50px;
+    border-radius: 25px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: #191924;
+}
+
+#emailForm_pdf{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#emailForm_pdf input,label{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+#emailForm_pdf input{
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    background-color: #191924;
+    color: white;
+}
+
+#emailForm_pdf button{
+    width: 180px;
+    height: 50px;
+    margin: 25px;
+    background-color: #edc62a;
+    border: none;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 1440px) {
+    .cgv_page{
+        height: 700px;
+        justify-content: center;
+    }
+
+    .cgv_texte{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .cgv_page{
+        height: 622px;
+    }
+    .cgv_image{
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .cgv_page{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .cgv_image{
+        display: none;
+    }
+}

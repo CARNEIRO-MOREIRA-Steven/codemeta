@@ -13,10 +13,18 @@ footer img{
     width: 80px;
 }
 
+.liens_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px){
     footer{
         margin-right: 0;
         margin-left: 0;
-        justify-content: space-around;
+        height: 100%;
+        gap: 0;
+        text-align: center;
     }
 }

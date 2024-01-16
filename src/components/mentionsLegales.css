@@ -1,0 +1,132 @@
+.mentions_legales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mentions_legales_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.container_article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 0 0;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #191924;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+}
+
+.article h3{
+    color: #EDC62A;
+}
+
+
+
+.article_description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mentions_legales ul{
+    padding: 0;
+}
+
+.lien_cgv{
+    color: black;
+    text-decoration: underline;
+}
+
+.cgv {
+    display: flex;
+    flex-direction: row;
+}
+
+.cgv p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.numero4{
+    margin-top: -110px;
+}
+
+.cgv{
+    width: 450px;
+    position: relative;
+    bottom: 140px;
+    right: 235px;
+}
+
+@media screen and (min-width: 1399px){
+    .mentions_legales{
+        width: 100%;
+    }
+
+    .mentions_legales_intro{
+        width: 55%;
+    }
+
+    .mentions_legales_page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container_article{
+        max-width: 1300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width : 1023px){
+    .mentions_legales{
+        margin-bottom: -80px;
+    }
+    .article{
+        width: 310px;
+    }
+    .numero4{
+        margin-top: -180px;
+    }
+    .cgv{
+        width: 310px;
+        right: 190px;
+        bottom: 160px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width : 767px){
+    .container_article{
+        padding: 0;
+    }
+    .article{
+        width: 80%;
+    }
+    .numero4{
+        margin-top: 0;
+    }
+    .cgv{
+        position: initial;
+        width: 80%;
+    }
+}

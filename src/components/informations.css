@@ -5,7 +5,7 @@
     justify-content: center;
     background-color: #EAE2B7;
     height: auto;
-    min-height: 579px;
+    min-height: 613px;
 }
 
 .menu_presentation{
@@ -204,7 +204,7 @@
 /*     Tablette           */
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .presentation_page{
-        min-height: 587.5px;
+        min-height: 622px;
         justify-content: center;
     }
     .photo.formation{
@@ -293,7 +293,7 @@
     }
 
     .presentation_page{
-        min-height: 73.1%;
+        min-height: 74.1%;
     }
 
     .card.active{

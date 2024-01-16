@@ -47,7 +47,7 @@ const rgpd = () => {
         <section className='card_rgpd card6'>
             <h3>Vos Droits</h3>
             <p>Vous avez le droit d'accéder, de corriger, de mettre à jour ou de demander la suppression de vos informations personnelles. Vous pouvez
-            exercer ces droits en nous contactant à [votre adresse e-mail].</p>
+            exercer ces droits en nous contactant à codemetasolutions@gmail.com.</p>
         </section>
         <section className='card_rgpd card7'>
             <h3>Modifications de cette Politique</h3>
@@ -56,7 +56,7 @@ const rgpd = () => {
         </section>
         <section className='card_rgpd card8'>
             <h3>Contact</h3>
-            <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à [votre adresse e-mail].</p>
+            <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à codemetasolutions@gmail.com.</p>
         </section>
 
         </section>
